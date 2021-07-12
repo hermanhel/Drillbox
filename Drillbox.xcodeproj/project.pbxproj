@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EA89600269C41D4000FB05D /* DrillboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA895FF269C41D4000FB05D /* DrillboxApp.swift */; };
+		3EA89602269C41D4000FB05D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA89601269C41D4000FB05D /* ContentView.swift */; };
+		3EA89604269C41D6000FB05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA89603269C41D6000FB05D /* Assets.xcassets */; };
+		3EA89607269C41D6000FB05D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA89606269C41D6000FB05D /* Preview Assets.xcassets */; };
+		3EA89613269C41D6000FB05D /* DrillboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA89612269C41D6000FB05D /* DrillboxTests.swift */; };
+		3EA8961E269C41D6000FB05D /* DrillboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8961D269C41D6000FB05D /* DrillboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EA8960F269C41D6000FB05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EA895F4269C41D4000FB05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA895FB269C41D4000FB05D;
+			remoteInfo = Drillbox;
+		};
+		3EA8961A269C41D6000FB05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EA895F4269C41D4000FB05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA895FB269C41D4000FB05D;
+			remoteInfo = Drillbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EA895FC269C41D4000FB05D /* Drillbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drillbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA895FF269C41D4000FB05D /* DrillboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillboxApp.swift; sourceTree = "<group>"; };
+		3EA89601269C41D4000FB05D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3EA89603269C41D6000FB05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EA89606269C41D6000FB05D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EA89608269C41D6000FB05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA89609269C41D6000FB05D /* Drillbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Drillbox.entitlements; sourceTree = "<group>"; };
+		3EA8960E269C41D6000FB05D /* DrillboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrillboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA89612269C41D6000FB05D /* DrillboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillboxTests.swift; sourceTree = "<group>"; };
+		3EA89614269C41D6000FB05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA89619269C41D6000FB05D /* DrillboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrillboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA8961D269C41D6000FB05D /* DrillboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillboxUITests.swift; sourceTree = "<group>"; };
+		3EA8961F269C41D6000FB05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EA895F9269C41D4000FB05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA8960B269C41D6000FB05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA89616269C41D6000FB05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EA895F3269C41D4000FB05D = {
+			isa = PBXGroup;
+			children = (
+				3EA895FE269C41D4000FB05D /* Drillbox */,
+				3EA89611269C41D6000FB05D /* DrillboxTests */,
+				3EA8961C269C41D6000FB05D /* DrillboxUITests */,
+				3EA895FD269C41D4000FB05D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EA895FD269C41D4000FB05D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EA895FC269C41D4000FB05D /* Drillbox.app */,
+				3EA8960E269C41D6000FB05D /* DrillboxTests.xctest */,
+				3EA89619269C41D6000FB05D /* DrillboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EA895FE269C41D4000FB05D /* Drillbox */ = {
+			isa = PBXGroup;
+			children = (
+				3EA895FF269C41D4000FB05D /* DrillboxApp.swift */,
+				3EA89601269C41D4000FB05D /* ContentView.swift */,
+				3EA89603269C41D6000FB05D /* Assets.xcassets */,
+				3EA89608269C41D6000FB05D /* Info.plist */,
+				3EA89609269C41D6000FB05D /* Drillbox.entitlements */,
+				3EA89605269C41D6000FB05D /* Preview Content */,
+			);
+			path = Drillbox;
+			sourceTree = "<group>";
+		};
+		3EA89605269C41D6000FB05D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3EA89606269C41D6000FB05D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EA89611269C41D6000FB05D /* DrillboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EA89612269C41D6000FB05D /* DrillboxTests.swift */,
+				3EA89614269C41D6000FB05D /* Info.plist */,
+			);
+			path = DrillboxTests;
+			sourceTree = "<group>";
+		};
+		3EA8961C269C41D6000FB05D /* DrillboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EA8961D269C41D6000FB05D /* DrillboxUITests.swift */,
+				3EA8961F269C41D6000FB05D /* Info.plist */,
+			);
+			path = DrillboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EA895FB269C41D4000FB05D /* Drillbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA89622269C41D6000FB05D /* Build configuration list for PBXNativeTarget "Drillbox" */;
+			buildPhases = (
+				3EA895F8269C41D4000FB05D /* Sources */,
+				3EA895F9269C41D4000FB05D /* Frameworks */,
+				3EA895FA269C41D4000FB05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drillbox;
+			productName = Drillbox;
+			productReference = 3EA895FC269C41D4000FB05D /* Drillbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EA8960D269C41D6000FB05D /* DrillboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA89625269C41D6000FB05D /* Build configuration list for PBXNativeTarget "DrillboxTests" */;
+			buildPhases = (
+				3EA8960A269C41D6000FB05D /* Sources */,
+				3EA8960B269C41D6000FB05D /* Frameworks */,
+				3EA8960C269C41D6000FB05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA89610269C41D6000FB05D /* PBXTargetDependency */,
+			);
+			name = DrillboxTests;
+			productName = DrillboxTests;
+			productReference = 3EA8960E269C41D6000FB05D /* DrillboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EA89618269C41D6000FB05D /* DrillboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA89628269C41D6000FB05D /* Build configuration list for PBXNativeTarget "DrillboxUITests" */;
+			buildPhases = (
+				3EA89615269C41D6000FB05D /* Sources */,
+				3EA89616269C41D6000FB05D /* Frameworks */,
+				3EA89617269C41D6000FB05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA8961B269C41D6000FB05D /* PBXTargetDependency */,
+			);
+			name = DrillboxUITests;
+			productName = DrillboxUITests;
+			productReference = 3EA89619269C41D6000FB05D /* DrillboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EA895F4269C41D4000FB05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3EA895FB269C41D4000FB05D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3EA8960D269C41D6000FB05D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3EA895FB269C41D4000FB05D;
+					};
+					3EA89618269C41D6000FB05D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3EA895FB269C41D4000FB05D;
+					};
+				};
+			};
+			buildConfigurationList = 3EA895F7269C41D4000FB05D /* Build configuration list for PBXProject "Drillbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EA895F3269C41D4000FB05D;
+			productRefGroup = 3EA895FD269C41D4000FB05D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EA895FB269C41D4000FB05D /* Drillbox */,
+				3EA8960D269C41D6000FB05D /* DrillboxTests */,
+				3EA89618269C41D6000FB05D /* DrillboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EA895FA269C41D4000FB05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA89607269C41D6000FB05D /* Preview Assets.xcassets in Resources */,
+				3EA89604269C41D6000FB05D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA8960C269C41D6000FB05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA89617269C41D6000FB05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA895F8269C41D4000FB05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA89602269C41D4000FB05D /* ContentView.swift in Sources */,
+				3EA89600269C41D4000FB05D /* DrillboxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA8960A269C41D6000FB05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA89613269C41D6000FB05D /* DrillboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA89615269C41D6000FB05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA8961E269C41D6000FB05D /* DrillboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EA89610269C41D6000FB05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA895FB269C41D4000FB05D /* Drillbox */;
+			targetProxy = 3EA8960F269C41D6000FB05D /* PBXContainerItemProxy */;
+		};
+		3EA8961B269C41D6000FB05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA895FB269C41D4000FB05D /* Drillbox */;
+			targetProxy = 3EA8961A269C41D6000FB05D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EA89620269C41D6000FB05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EA89621269C41D6000FB05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3EA89623269C41D6000FB05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Drillbox/Drillbox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Drillbox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Drillbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Herman.Drillbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3EA89624269C41D6000FB05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Drillbox/Drillbox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Drillbox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Drillbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Herman.Drillbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3EA89626269C41D6000FB05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrillboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Herman.DrillboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drillbox.app/Contents/MacOS/Drillbox";
+			};
+			name = Debug;
+		};
+		3EA89627269C41D6000FB05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrillboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Herman.DrillboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drillbox.app/Contents/MacOS/Drillbox";
+			};
+			name = Release;
+		};
+		3EA89629269C41D6000FB05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrillboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Herman.DrillboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Drillbox;
+			};
+			name = Debug;
+		};
+		3EA8962A269C41D6000FB05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DrillboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Herman.DrillboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Drillbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EA895F7269C41D4000FB05D /* Build configuration list for PBXProject "Drillbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA89620269C41D6000FB05D /* Debug */,
+				3EA89621269C41D6000FB05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA89622269C41D6000FB05D /* Build configuration list for PBXNativeTarget "Drillbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA89623269C41D6000FB05D /* Debug */,
+				3EA89624269C41D6000FB05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA89625269C41D6000FB05D /* Build configuration list for PBXNativeTarget "DrillboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA89626269C41D6000FB05D /* Debug */,
+				3EA89627269C41D6000FB05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA89628269C41D6000FB05D /* Build configuration list for PBXNativeTarget "DrillboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA89629269C41D6000FB05D /* Debug */,
+				3EA8962A269C41D6000FB05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EA895F4269C41D4000FB05D /* Project object */;
+}
